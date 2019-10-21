@@ -1,21 +1,41 @@
 header {
-	padding-left: 40px;
-	padding-top: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
 }
 /* Feel free to modify anything in this file.*/
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
 .vendor-wrapper {
-	justify-content: left;
-	padding-left: 40px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .vendor-photo {
-	max-width: : 200px;
-	max-height: 150px;
-	padding-right: 20px;
+    height: 30vmin;
+    width: 30vmin;
+    margin: 1vw 4vw 1vw 4vw;
 }
 
 .vendor-book-button {
-	font-size: 2em;
+    font-size: 2em;
+    margin: 10px;
+}
+
+.text {
+    margin: 10px;
+    width: 30vmin;
 }
