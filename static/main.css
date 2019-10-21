@@ -11,6 +11,11 @@ header {
     align-items: center;
 }
 
+.invis_button {
+    background: transparent;
+    border: none;
+}
+
 .row {
     display: flex;
     justify-content: space-around;
