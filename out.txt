@@ -1,0 +1,100 @@
+2019-10-23T00:30:08.891132+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=48d93d50-1c30-4e7a-896b-18f759a9aa78 fwd="138.16.120.136" dyno=web.1 connect=0ms service=57ms status=200 bytes=155 protocol=https
+2019-10-23T00:30:25.784177+00:00 heroku[router]: at=info method=GET path="/static/memphis.png" host=whispering-scrubland-05775.herokuapp.com request_id=427fd606-81ba-40cf-aea4-ba9896607aaa fwd="138.16.120.207" dyno=web.1 connect=1ms service=41ms status=200 bytes=1114483 protocol=https
+2019-10-23T00:30:25.788524+00:00 heroku[router]: at=info method=GET path="/static/uber.png" host=whispering-scrubland-05775.herokuapp.com request_id=e1b12f66-7efd-4353-84ba-7ea1979fb2ef fwd="138.16.120.207" dyno=web.1 connect=0ms service=11ms status=200 bytes=299557 protocol=https
+2019-10-23T00:30:25.803658+00:00 heroku[router]: at=info method=GET path="/static/premiere.png" host=whispering-scrubland-05775.herokuapp.com request_id=b817ef0b-3b81-4ed2-8b95-8a5d21bf6641 fwd="138.16.120.207" dyno=web.1 connect=0ms service=9ms status=200 bytes=276680 protocol=https
+2019-10-23T00:30:25.682735+00:00 heroku[router]: at=info method=GET path="/" host=whispering-scrubland-05775.herokuapp.com request_id=8ac82cc9-fb51-401e-b6f9-ee26bed1b164 fwd="138.16.120.207" dyno=web.1 connect=1ms service=3ms status=200 bytes=8552 protocol=https
+2019-10-23T00:30:25.682466+00:00 app[web.1]: 10.63.145.103 - - [23/Oct/2019 00:30:25] "GET / HTTP/1.1" 200 -
+2019-10-23T00:30:25.74111+00:00 app[web.1]: 10.63.145.103 - - [23/Oct/2019 00:30:25] "GET /static/main.css HTTP/1.1" 200 -
+2019-10-23T00:30:25.744774+00:00 app[web.1]: 10.63.255.131 - - [23/Oct/2019 00:30:25] "GET /static/memphis.png HTTP/1.1" 200 -
+2019-10-23T00:30:25.76275+00:00 app[web.1]: 10.63.145.103 - - [23/Oct/2019 00:30:25] "GET /static/memphis2.png HTTP/1.1" 200 -
+2019-10-23T00:30:25.778583+00:00 app[web.1]: 10.123.144.18 - - [23/Oct/2019 00:30:25] "GET /static/uber.png HTTP/1.1" 200 -
+2019-10-23T00:30:25.796899+00:00 app[web.1]: 10.155.88.71 - - [23/Oct/2019 00:30:25] "GET /static/premiere.png HTTP/1.1" 200 -
+2019-10-23T00:30:25.741123+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=whispering-scrubland-05775.herokuapp.com request_id=fe47cf2a-2135-477d-871d-d9dd0b77feaa fwd="138.16.120.207" dyno=web.1 connect=0ms service=3ms status=200 bytes=1059 protocol=https
+2019-10-23T00:30:25.770759+00:00 heroku[router]: at=info method=GET path="/static/memphis2.png" host=whispering-scrubland-05775.herokuapp.com request_id=451528f9-547b-4d5d-bc4d-60b6cf78bea5 fwd="138.16.120.207" dyno=web.1 connect=0ms service=10ms status=200 bytes=248655 protocol=https
+2019-10-23T00:30:26.00265+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=894a7619-a84e-419e-b168-7c0747eb7ea0 fwd="138.16.120.207" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2019-10-23T00:30:26.085238+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=whispering-scrubland-05775.herokuapp.com request_id=e2746803-1cd4-4774-a3f3-85146b84c26d fwd="138.16.120.207" dyno=web.1 connect=1ms service=3ms status=404 bytes=379 protocol=https
+2019-10-23T00:30:26.001563+00:00 app[web.1]: AB_TESTING: B 1571790625884 0 0 olvcgkho
+2019-10-23T00:30:26.002167+00:00 app[web.1]: 10.63.145.103 - - [23/Oct/2019 00:30:26] "POST /data HTTP/1.1" 200 -
+2019-10-23T00:30:26.084344+00:00 app[web.1]: 10.63.255.131 - - [23/Oct/2019 00:30:26] "GET /favicon.ico HTTP/1.1" 404 -
+2019-10-23T00:31:00.974746+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=d7e68384-86da-4c70-b6f6-d2c1f3043cdd fwd="138.16.120.136" dyno=web.1 connect=0ms service=92ms status=200 bytes=155 protocol=https
+2019-10-23T00:31:00.971891+00:00 app[web.1]: AB_TESTING: A 1571790564418 1571790660659 mp2 vzzjwmq
+2019-10-23T00:31:00.972759+00:00 app[web.1]: 10.30.127.176 - - [23/Oct/2019 00:31:00] "POST /data HTTP/1.1" 200 -
+2019-10-23T00:31:01.515767+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=0ad7be0d-6a80-43ca-b382-4a160eb5427b fwd="138.16.120.136" dyno=web.1 connect=0ms service=60ms status=200 bytes=155 protocol=https
+2019-10-23T00:31:01.512853+00:00 app[web.1]: AB_TESTING: A 1571790564418 1571790661436 mp3 vzzjwmq
+2019-10-23T00:31:01.513739+00:00 app[web.1]: 10.30.127.176 - - [23/Oct/2019 00:31:01] "POST /data HTTP/1.1" 200 -
+2019-10-23T00:31:35.288382+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=whispering-scrubland-05775.herokuapp.com request_id=089f5e83-5dd5-469f-b9f8-406e7ef2b38a fwd="138.16.109.30" dyno=web.1 connect=0ms service=4ms status=200 bytes=1059 protocol=https
+2019-10-23T00:31:35.322627+00:00 heroku[router]: at=info method=GET path="/static/memphis2.png" host=whispering-scrubland-05775.herokuapp.com request_id=92c09e63-95b3-4cfa-8246-da566f37acf5 fwd="138.16.109.30" dyno=web.1 connect=0ms service=15ms status=200 bytes=248655 protocol=https
+2019-10-23T00:31:35.250384+00:00 heroku[router]: at=info method=GET path="/" host=whispering-scrubland-05775.herokuapp.com request_id=3431823e-24e9-49cc-b55a-5cba85b55bed fwd="138.16.109.30" dyno=web.1 connect=0ms service=9ms status=200 bytes=8552 protocol=https
+2019-10-23T00:31:35.248183+00:00 app[web.1]: 10.168.89.215 - - [23/Oct/2019 00:31:35] "GET / HTTP/1.1" 200 -
+2019-10-23T00:31:35.287095+00:00 app[web.1]: 10.168.89.215 - - [23/Oct/2019 00:31:35] "GET /static/main.css HTTP/1.1" 200 -
+2019-10-23T00:31:35.290912+00:00 app[web.1]: 10.37.232.57 - - [23/Oct/2019 00:31:35] "GET /static/memphis.png HTTP/1.1" 200 -
+2019-10-23T00:31:35.310917+00:00 app[web.1]: 10.168.89.215 - - [23/Oct/2019 00:31:35] "GET /static/memphis2.png HTTP/1.1" 200 -
+2019-10-23T00:31:35.394853+00:00 app[web.1]: 10.61.213.112 - - [23/Oct/2019 00:31:35] "GET /static/uber.png HTTP/1.1" 200 -
+2019-10-23T00:31:35.40631+00:00 app[web.1]: 10.63.237.123 - - [23/Oct/2019 00:31:35] "GET /static/premiere.png HTTP/1.1" 200 -
+2019-10-23T00:31:35.48644+00:00 app[web.1]: AB_TESTING: B 1571790695461 0 0 kjvvwscr
+2019-10-23T00:31:35.487041+00:00 app[web.1]: 10.168.89.215 - - [23/Oct/2019 00:31:35] "POST /data HTTP/1.1" 200 -
+2019-10-23T00:31:35.314327+00:00 heroku[router]: at=info method=GET path="/static/memphis.png" host=whispering-scrubland-05775.herokuapp.com request_id=08ed34cf-22da-419f-980c-851934f82537 fwd="138.16.109.30" dyno=web.1 connect=0ms service=29ms status=200 bytes=1114483 protocol=https
+2019-10-23T00:31:35.409208+00:00 heroku[router]: at=info method=GET path="/static/uber.png" host=whispering-scrubland-05775.herokuapp.com request_id=f316338f-11b0-4dcd-9e57-88c8fef35e3e fwd="138.16.109.30" dyno=web.1 connect=1ms service=19ms status=200 bytes=299557 protocol=https
+2019-10-23T00:31:35.487921+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=ca41a433-0578-453b-ad6c-a42550ba0cff fwd="138.16.109.30" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2019-10-23T00:31:35.431942+00:00 heroku[router]: at=info method=GET path="/static/premiere.png" host=whispering-scrubland-05775.herokuapp.com request_id=d55bf5a5-14a8-4b6c-b519-8b5b7c7f7b30 fwd="138.16.109.30" dyno=web.1 connect=0ms service=40ms status=200 bytes=276680 protocol=https
+2019-10-23T00:31:35.61737+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=whispering-scrubland-05775.herokuapp.com request_id=8b1b6145-b9b7-419d-ad89-8d6a9dd96c84 fwd="138.16.109.30" dyno=web.1 connect=1ms service=10ms status=404 bytes=379 protocol=https
+2019-10-23T00:31:35.614345+00:00 app[web.1]: 10.63.237.123 - - [23/Oct/2019 00:31:35] "GET /favicon.ico HTTP/1.1" 404 -
+2019-10-23T00:31:58.181403+00:00 heroku[router]: at=info method=GET path="/" host=whispering-scrubland-05775.herokuapp.com request_id=020b803f-092c-4fbc-9777-36a13277cd66 fwd="138.16.116.142" dyno=web.1 connect=0ms service=7ms status=200 bytes=8552 protocol=https
+2019-10-23T00:31:58.304519+00:00 heroku[router]: at=info method=GET path="/static/memphis.png" host=whispering-scrubland-05775.herokuapp.com request_id=4024e2b5-d4d1-4b3e-8813-fe7b4d6f96ff fwd="138.16.116.142" dyno=web.1 connect=0ms service=36ms status=200 bytes=1114483 protocol=https
+2019-10-23T00:31:58.299012+00:00 heroku[router]: at=info method=GET path="/static/memphis2.png" host=whispering-scrubland-05775.herokuapp.com request_id=10e3eb0c-271d-4ccc-aa1f-421921365257 fwd="138.16.116.142" dyno=web.1 connect=0ms service=13ms status=200 bytes=248655 protocol=https
+2019-10-23T00:31:58.181181+00:00 app[web.1]: 10.30.61.206 - - [23/Oct/2019 00:31:58] "GET / HTTP/1.1" 200 -
+2019-10-23T00:31:58.264522+00:00 app[web.1]: 10.30.61.206 - - [23/Oct/2019 00:31:58] "GET /static/main.css HTTP/1.1" 200 -
+2019-10-23T00:31:58.267509+00:00 app[web.1]: 10.31.251.32 - - [23/Oct/2019 00:31:58] "GET /static/memphis.png HTTP/1.1" 200 -
+2019-10-23T00:31:58.289727+00:00 app[web.1]: 10.30.61.206 - - [23/Oct/2019 00:31:58] "GET /static/memphis2.png HTTP/1.1" 200 -
+2019-10-23T00:31:58.264128+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=whispering-scrubland-05775.herokuapp.com request_id=27ddfcb9-9036-4666-9dec-5ddb6b7a14b6 fwd="138.16.116.142" dyno=web.1 connect=0ms service=6ms status=200 bytes=1059 protocol=https
+2019-10-23T00:31:59.008205+00:00 app[web.1]: 10.30.61.206 - - [23/Oct/2019 00:31:59] "GET /static/uber.png HTTP/1.1" 200 -
+2019-10-23T00:31:59.019259+00:00 app[web.1]: 10.7.214.204 - - [23/Oct/2019 00:31:59] "GET /static/premiere.png HTTP/1.1" 200 -
+2019-10-23T00:31:59.02213+00:00 heroku[router]: at=info method=GET path="/static/uber.png" host=whispering-scrubland-05775.herokuapp.com request_id=52769c92-441f-4666-b21f-c32276d815f7 fwd="138.16.116.142" dyno=web.1 connect=0ms service=19ms status=200 bytes=299557 protocol=https
+2019-10-23T00:31:59.029219+00:00 heroku[router]: at=info method=GET path="/static/premiere.png" host=whispering-scrubland-05775.herokuapp.com request_id=018057f1-d4c8-4ce3-bc56-52dbb4aa05db fwd="138.16.116.142" dyno=web.1 connect=0ms service=23ms status=200 bytes=276680 protocol=https
+2019-10-23T00:31:59.395928+00:00 app[web.1]: AB_TESTING: B 1571790721376 0 0 wbuonqt
+2019-10-23T00:31:59.396503+00:00 app[web.1]: 10.7.214.204 - - [23/Oct/2019 00:31:59] "POST /data HTTP/1.1" 200 -
+2019-10-23T00:31:59.556307+00:00 app[web.1]: 10.31.251.32 - - [23/Oct/2019 00:31:59] "GET /favicon.ico HTTP/1.1" 404 -
+2019-10-23T00:31:59.398043+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=6d99996a-da23-4af2-b76f-6e56b3de5cdb fwd="138.16.116.142" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2019-10-23T00:31:59.559409+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=whispering-scrubland-05775.herokuapp.com request_id=83d5f1ac-206e-4b7c-b0ce-32cb22129110 fwd="138.16.116.142" dyno=web.1 connect=0ms service=2ms status=404 bytes=379 protocol=https
+2019-10-23T00:32:01.616102+00:00 heroku[router]: at=info method=GET path="/static/uber.png" host=whispering-scrubland-05775.herokuapp.com request_id=9fac41dd-bc54-4860-800e-b2315d9ab0a6 fwd="138.16.110.255" dyno=web.1 connect=1ms service=23ms status=200 bytes=299557 protocol=https
+2019-10-23T00:32:01.525773+00:00 heroku[router]: at=info method=GET path="/" host=whispering-scrubland-05775.herokuapp.com request_id=fd28e3c7-9f85-4958-b838-4e4c68ab810d fwd="138.16.110.255" dyno=web.1 connect=0ms service=2ms status=200 bytes=8552 protocol=https
+2019-10-23T00:32:01.567097+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=whispering-scrubland-05775.herokuapp.com request_id=48ada4b6-3b70-449c-8739-4e438816a042 fwd="138.16.110.255" dyno=web.1 connect=1ms service=12ms status=200 bytes=1059 protocol=https
+2019-10-23T00:32:01.63604+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=cf682557-5272-4791-8411-0ea93ba30854 fwd="138.16.110.255" dyno=web.1 connect=5ms service=9ms status=200 bytes=155 protocol=https
+2019-10-23T00:32:01.524087+00:00 app[web.1]: 10.30.127.176 - - [23/Oct/2019 00:32:01] "GET / HTTP/1.1" 200 -
+2019-10-23T00:32:01.563608+00:00 app[web.1]: 10.30.127.176 - - [23/Oct/2019 00:32:01] "GET /static/main.css HTTP/1.1" 200 -
+2019-10-23T00:32:01.565374+00:00 app[web.1]: 10.143.30.109 - - [23/Oct/2019 00:32:01] "GET /static/memphis.png HTTP/1.1" 200 -
+2019-10-23T00:32:01.589095+00:00 app[web.1]: 10.30.127.176 - - [23/Oct/2019 00:32:01] "GET /static/memphis2.png HTTP/1.1" 200 -
+2019-10-23T00:32:01.594354+00:00 app[web.1]: 10.52.12.238 - - [23/Oct/2019 00:32:01] "GET /static/uber.png HTTP/1.1" 200 -
+2019-10-23T00:32:01.597653+00:00 app[web.1]: 10.7.155.197 - - [23/Oct/2019 00:32:01] "GET /static/premiere.png HTTP/1.1" 200 -
+2019-10-23T00:32:01.634304+00:00 app[web.1]: AB_TESTING: B 1571790721289 0 0 bqlrfeqe
+2019-10-23T00:32:01.635084+00:00 app[web.1]: 10.63.174.10 - - [23/Oct/2019 00:32:01] "POST /data HTTP/1.1" 200 -
+2019-10-23T00:32:01.632964+00:00 heroku[router]: at=info method=GET path="/static/premiere.png" host=whispering-scrubland-05775.herokuapp.com request_id=ae5f1d86-7b11-4bb4-b650-6420a47fab25 fwd="138.16.110.255" dyno=web.1 connect=2ms service=37ms status=200 bytes=276680 protocol=https
+2019-10-23T00:32:01.599238+00:00 heroku[router]: at=info method=GET path="/static/memphis2.png" host=whispering-scrubland-05775.herokuapp.com request_id=0e493647-e381-4b44-916e-88fcc31e212e fwd="138.16.110.255" dyno=web.1 connect=0ms service=11ms status=200 bytes=248655 protocol=https
+2019-10-23T00:32:01.6298+00:00 heroku[router]: at=info method=GET path="/static/memphis.png" host=whispering-scrubland-05775.herokuapp.com request_id=7f94b5a0-b889-461f-8214-75a3933d8bde fwd="138.16.110.255" dyno=web.1 connect=0ms service=74ms status=200 bytes=1114483 protocol=https
+2019-10-23T00:32:01.917845+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=whispering-scrubland-05775.herokuapp.com request_id=2632a6cc-f88c-4d30-92ea-096f78e82997 fwd="138.16.110.255" dyno=web.1 connect=1ms service=7ms status=404 bytes=379 protocol=https
+2019-10-23T00:32:02.017546+00:00 heroku[router]: at=info method=GET path="/" host=whispering-scrubland-05775.herokuapp.com request_id=40b70af0-1d4a-462e-9803-758833caf7ac fwd="192.91.235.243" dyno=web.1 connect=1ms service=4ms status=200 bytes=8791 protocol=https
+2019-10-23T00:32:01.915552+00:00 app[web.1]: 10.143.30.109 - - [23/Oct/2019 00:32:01] "GET /favicon.ico HTTP/1.1" 404 -
+2019-10-23T00:32:02.01553+00:00 app[web.1]: 10.41.169.187 - - [23/Oct/2019 00:32:02] "GET / HTTP/1.1" 200 -
+2019-10-23T00:32:02.093341+00:00 app[web.1]: 10.43.233.181 - - [23/Oct/2019 00:32:02] "GET /static/memphis.png HTTP/1.1" 200 -
+2019-10-23T00:32:02.094302+00:00 app[web.1]: 10.41.169.187 - - [23/Oct/2019 00:32:02] "GET /static/main.css HTTP/1.1" 200 -
+2019-10-23T00:32:02.118205+00:00 app[web.1]: 10.41.169.187 - - [23/Oct/2019 00:32:02] "GET /static/memphis2.png HTTP/1.1" 200 -
+2019-10-23T00:32:02.095872+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=whispering-scrubland-05775.herokuapp.com request_id=f725493f-7376-428a-8b6b-aecb879912fb fwd="192.91.235.243" dyno=web.1 connect=1ms service=8ms status=200 bytes=1059 protocol=https
+2019-10-23T00:32:02.14958+00:00 heroku[router]: at=info method=GET path="/static/memphis.png" host=whispering-scrubland-05775.herokuapp.com request_id=bd95969d-3ceb-4a4e-9d61-6ee2d2526680 fwd="192.91.235.243" dyno=web.1 connect=1ms service=60ms status=200 bytes=1114483 protocol=https
+2019-10-23T00:32:02.137792+00:00 heroku[router]: at=info method=GET path="/static/memphis2.png" host=whispering-scrubland-05775.herokuapp.com request_id=905e783e-1553-4636-aa37-8a9435ac5c7d fwd="192.91.235.243" dyno=web.1 connect=0ms service=21ms status=200 bytes=248655 protocol=https
+2019-10-23T00:32:02.453595+00:00 heroku[router]: at=info method=GET path="/static/premiere.png" host=whispering-scrubland-05775.herokuapp.com request_id=c7f09eca-261e-45cd-bed7-15622525a2b3 fwd="192.91.235.243" dyno=web.1 connect=0ms service=17ms status=200 bytes=276680 protocol=https
+2019-10-23T00:32:02.44615+00:00 heroku[router]: at=info method=GET path="/static/uber.png" host=whispering-scrubland-05775.herokuapp.com request_id=5141155e-8b27-405f-b095-8f0351dba424 fwd="192.91.235.243" dyno=web.1 connect=0ms service=13ms status=200 bytes=299557 protocol=https
+2019-10-23T00:32:02.434918+00:00 app[web.1]: 10.41.169.187 - - [23/Oct/2019 00:32:02] "GET /static/uber.png HTTP/1.1" 200 -
+2019-10-23T00:32:02.440725+00:00 app[web.1]: 10.81.229.85 - - [23/Oct/2019 00:32:02] "GET /static/premiere.png HTTP/1.1" 200 -
+2019-10-23T00:32:02.636504+00:00 app[web.1]: AB_TESTING: A 1571790720364 0 0 niekgvqzkl
+2019-10-23T00:32:02.637248+00:00 app[web.1]: 10.63.237.123 - - [23/Oct/2019 00:32:02] "POST /data HTTP/1.1" 200 -
+2019-10-23T00:32:02.638417+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=814a6abd-e509-4fff-aa0f-f2cc74785f17 fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2019-10-23T00:32:02.96457+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=whispering-scrubland-05775.herokuapp.com request_id=647ed220-2c43-45d9-a382-afec71b88796 fwd="192.91.235.243" dyno=web.1 connect=0ms service=2ms status=404 bytes=379 protocol=https
+2019-10-23T00:32:02.963914+00:00 app[web.1]: 10.43.233.181 - - [23/Oct/2019 00:32:02] "GET /favicon.ico HTTP/1.1" 404 -
+2019-10-23T00:32:04.262056+00:00 app[web.1]: AB_TESTING: A 1571790720364 1571790722035 mp1 niekgvqzkl
+2019-10-23T00:32:04.26313+00:00 app[web.1]: 10.43.233.181 - - [23/Oct/2019 00:32:04] "POST /data HTTP/1.1" 200 -
+2019-10-23T00:32:04.263896+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=c48615aa-d759-4ff9-8576-042022af2166 fwd="192.91.235.243" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2019-10-23T00:32:07.522237+00:00 heroku[router]: at=info method=POST path="/data" host=whispering-scrubland-05775.herokuapp.com request_id=5fac75ad-748f-482c-957a-0a98a50a5b5c fwd="192.91.235.243" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2019-10-23T00:32:07.52079+00:00 app[web.1]: AB_TESTING: A 1571790725289 0 0 niekgvqzkl
+2019-10-23T00:32:07.522162+00:00 app[web.1]: 10.43.233.181 - - [23/Oct/2019 00:32:07] "POST /data HTTP/1.1" 200 -
+2019-10-23T00:32:10.253239+00:00 app[web.1]: AB_TESTING: B 1571790721376 1571790732246 mp2 wbuonqt
+2019-10-23T00:32:10.254097+00:00 app[web.1]: 10.31.251.32 - - [23/Oct/2019 00:32:10] "POST /data HTTP/1.1" 200 -
